@@ -1,5 +1,5 @@
 # GLOBAL-EARTHQUAKE-ANALYZER-AND-SAFETY-GUIDE
-# Global Earthquake Analyzer and Safety Guide
+# OVERVIEW
 
 This Python command-line application allows users to analyze a large global earthquake dataset (M5.0+ from 2015-2025) and access a vital earthquake safety guide. The tool uses `pandas` and `numpy` for data analysis and `matplotlib` with `geopandas` to generate a geospatial visualization of global earthquake hotspots, clearly showing the "Ring of Fire."
 

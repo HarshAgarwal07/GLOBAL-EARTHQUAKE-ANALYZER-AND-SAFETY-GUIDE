@@ -40,3 +40,52 @@ You can install all required libraries using pip:
 
 ```bash
 pip install pandas numpy matplotlib geopandas
+
+3. Setup
+
+Download the Data:
+
+Go to the USGS Earthquake Catalog Search.
+
+Set the Magnitude to a minimum of 5.0.
+
+Set the Date & Time to a custom range (e.g., 2015-01-01 to 2025-01-01).
+
+Set the Format to CSV and download the file.
+
+Rename the downloaded file to query.csv (or any name you wish).
+
+Update the Script:
+
+Place your downloaded CSV file in the same folder as the earthquake_analyzer.py script.
+
+Open earthquake_analyzer.py and change the YOUR_CSV_FILENAME variable to match the name of your file (e.g., r'C:\MyProject\query.csv').
+
+4. Run the Program
+
+Open a terminal or command prompt, navigate to your project folder, and run the script:
+
+python earthquake_analyzer.py
+
+
+This will load the data and launch the main menu.
+
+Libraries Used
+
+csv: For basic file reading with open().
+
+pandas: For data loading, pre-processing, and all data analysis.
+
+numpy: For numerical operations and data categorization.
+
+matplotlib: For creating the base plot and scatter plot visualization.
+
+geopandas: For loading and drawing the world map background.
+
+Acknowledgements
+
+This project was developed by Harsh Agarwal under the guidance of Professor Thirumoorthy Krishnan.
+
+Earthquake data is provided by the U.S. Geological Survey (USGS).
+
+World map GeoJSON file provided by johan/world.geo.json on GitHub.

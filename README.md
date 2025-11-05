@@ -47,7 +47,7 @@ pip install pandas numpy matplotlib geopandas
 **Download the Data:**
 Download the CSV file provided in this repository
 
-                        OR
+OR
 
 1.  Go to the [USGS Earthquake Catalog Search](https://earthquake.usgs.gov/earthquakes/search/).
 2.  Set the **Magnitude** to a minimum of `5.0`.

@@ -66,3 +66,22 @@ Open a terminal or command prompt, navigate to your project folder, and run the 
 
 ```bash
 python earthquake_analyzer.py
+```
+
+## Libraries Used
+
+* **csv:** For basic file reading with `open()`.
+* **pandas:** For data loading, pre-processing, and all data analysis.
+* **numpy:** For numerical operations and data categorization.
+* **matplotlib:** For creating the base plot and scatter plot visualization.
+* **geopandas:** For loading and drawing the world map background.
+
+## Acknowledgements
+
+* This project was developed by **Harsh Agarwal** under the guidance of **Professor Thirumoorthy Krishnan**.
+* Earthquake data is provided by the [U.S. Geological Survey (USGS)](https://earthquake.usgs.gov/earthquakes/search/).
+* World map GeoJSON file provided by [johan/world.geo.json](https://github.com/johan/world.geo.json) on GitHub.
+
+## License
+
+This project is developed for academic and research purposes as part of the **BACSE101 – Problem Solving Using Python** course at **VIT University**.
